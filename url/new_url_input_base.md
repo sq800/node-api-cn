@@ -11,8 +11,8 @@ const myURL = new URL('/foo', 'https://example.org/');
 // https://example.org/foo
 ```
 
-The URL constructor is accessible as a property on the global object.
-It can also be imported from the built-in url module:
+URL构造函数可以作为全局对象的属性进行访问。
+也可以从内置url模块导入：
 
 ```js
 console.log(URL === require('url').URL); // Prints 'true'.
